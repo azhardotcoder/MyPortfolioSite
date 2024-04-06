@@ -87,6 +87,10 @@ body.dark-theme {
   display: flex;
   align-items: center;
 }
+#skill-section{
+  display: none;
+  /* justify-content: space-between;4 */
+}
 
 .change-theme {
   font-size: 1.25rem;
@@ -221,6 +225,10 @@ img {
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
   }
+}
+#skill-section{
+  display: none;
+  /* justify-content: space-between;4 */
 }
 
 .nav__list {
@@ -972,7 +980,11 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
-
+  #skill-section{
+    display: none;
+    /* justify-content: space-between;4 */
+  }
+  
   .nav__menu {
     padding: 2rem .25rem 4rem;
   }
@@ -996,6 +1008,11 @@ img {
   .qualification__data {
     gap: .5rem;
   }
+  .skills{
+    display: none;
+
+  }
+  
 
   .services__container {
     grid-template-columns: max-content;
@@ -1035,6 +1052,10 @@ img {
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
   }
+  #skill-section{
+    display: none;
+    /* justify-content: space-between;4 */
+  }
 
   .home__data {
     grid-column: initial;
@@ -1059,12 +1080,20 @@ img {
     grid-template-columns: .6fr;
     justify-content: center;
   }
+  #skill-section{
+    display: none;
+    /* justify-content: space-between;4 */
+  }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     margin-left: auto;
     margin-right: auto;
+  }
+  #skill-section{
+    display: none;
+    /* justify-content: space-between;4 */
   }
 
   body {
@@ -1184,6 +1213,7 @@ img {
   .services__modal-content {
     width: 450px;
   }
+  
 
   .portfolio__img {
     width: 320px;
@@ -1247,7 +1277,10 @@ img {
   .home__blob {
     width: 320px;
   }
-
+  #skill-section{
+    display: none;
+    /* justify-content: space-between;4 */
+  }
   .home__social {
     transform: translateX(-6rem);
   }
